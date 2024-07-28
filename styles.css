@@ -1,0 +1,60 @@
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.t {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.hero-bg {
+    background-image: url('./assets/c0700a83-d9bb-472a-b313-3dfc80a19ef0.jpg'); background-size: cover; background-position: center;
+}
+
+.r {
+    border-radius: 16.5px 0 !important;
+}
+
+.rw {
+    border-radius: 20px 0 20px 20px !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.am {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.wid {
+    height: 100px !important;
+    width: 100px !important;
+    size: cover;
+}
+
+.mg {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.bo {
+    background-image: url('./assets/HD-wallpaper-gadgets2-gadgets.jpg'); background-size: cover; background-position: center;
+}
+
+.bg-dark-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    z-index: 0;
+}
